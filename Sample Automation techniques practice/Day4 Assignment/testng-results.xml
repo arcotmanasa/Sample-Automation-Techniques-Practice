@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T22:49:00 PDT" name="Suite" finished-at="2022-09-08T22:49:00 PDT" duration-ms="74">
+    <groups>
+      <group name="smoke">
+        <method signature="Module1.testCase1()[pri:0, instance:testSuite.Module1@8dbdac1]" name="testCase1" class="testSuite.Module1"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Module1.testCase1()[pri:0, instance:testSuite.Module1@8dbdac1]" name="testCase1" class="testSuite.Module1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-09-08T22:49:00 PDT" name="Test" finished-at="2022-09-08T22:49:00 PDT" duration-ms="74">
+      <class name="testSuite.Module1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeSuite" finished-at="2022-09-08T22:49:00 PDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeTest" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeClass" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="testCase2" finished-at="2022-09-08T22:49:00 PDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="login" data-provider="data001" finished-at="2022-09-08T22:49:00 PDT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pW001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCase1()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="testCase1" finished-at="2022-09-08T22:49:00 PDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="login" data-provider="data001" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arcot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pw002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="login" data-provider="data001" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venkataram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pw008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterClass" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterTest" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testSuite.Module1@8dbdac1]" started-at="2022-09-08T22:49:00 PDT" name="afterSuite" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testSuite.Module1 -->
+      <class name="testSuite.Module2">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="beforeSuite" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="beforeTest" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="beforeClass" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="beforeMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="testCase2" finished-at="2022-09-08T22:49:00 PDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase1()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="testCase1" finished-at="2022-09-08T22:49:00 PDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="afterMethod" finished-at="2022-09-08T22:49:00 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="afterClass" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="afterTest" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testSuite.Module2@3bb9a3ff]" started-at="2022-09-08T22:49:00 PDT" name="afterSuite" finished-at="2022-09-08T22:49:00 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testSuite.Module2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
